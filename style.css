@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    max-width: 1440px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 400, 600;
+    justify-content: center;
+    text-align: center;
+}
+h1, h2 ,h3, h4, h5, h6{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+
+/* First Section */
+h1{
+    font-size:3rem;
+
+}
+h2{
+    font-size:2.25rem;
+}
+p{
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+
+.first-section{
+    position: relative;
+}
+.bg-header{
+    max-width: 100%;
+    width: 100%;
+}
+.logo-header{
+    position: absolute;
+    top: 35%;
+    left: 46%;
+    display: inline-block;
+}
+article{
+    position: absolute;
+    max-width: 100%;
+    top: 85%;
+    left: 17%;
+}
+
+.title{
+    width: 65%;
+    display: inline-block;
+}
+.btn{
+    width: 250px;
+    height: 60px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 50px;
+    border-color: #fff;
+    color: #fff;
+    font-size: 18px;
+}
+.btn-mac{
+    background-color: hsl(233, 100%, 69%);
+}
+.button{
+    margin-top: 50px;
+}
+
+.second-section {
+    position: absolute;
+    width: 55%;
+    top: 43rem;
+    left: 25%;
+}
+.third-section{
+    position: absolute;
+    top: 55rem;
+}
+ul{
+    list-style: none;
+    text-align: left;
+    width: 350px;
+    margin-left: 75px;
+}
+li{
+    margin-bottom: 25px;
+}
+.forth-section{
+    position: absolute;
+    width: 55%;
+    top: 100rem;
+    left: 25%;
+}
+.device-img{
+    position: absolute;
+    top: 112.5rem;
+    left: 20%;
+}
+.fifth-section{
+    position: absolute;
+    width: 55%;
+    top: 152.5rem;
+    left: 25%;
+}
+.sixth-section{
+    position: absolute;
+    top: 162.5rem;
+}
+ol{
+    list-style: none;
+    text-align: center;
+    margin: 20px 155px;
+}
+ol > li{
+    float: left;
+    width: 365px;
+    
+}
+.brands{
+    position: absolute;
+    display: flex;
+    top: 185rem;
+    gap: 100px;
+    margin: 0 150px;
+}
+.seventh-section{
+    position: absolute;
+    top: 200rem;
+    text-align: center;
+    width:60% ;
+    margin: 0 265px 100px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: 225rem;
+    background-color:ghostwhite;
+}
+.footer-logo{
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    top: 45px;
+    left: 200px;
+}
+.footer-txt{
+    position: absolute;
+    text-align: left;
+    top: 13px;
+    left: 400px;
+    color: hsl(210, 10%, 33%);
+}
+.icons{
+    position:absolute;
+    display: flex;
+    top: 60px;
+    right: 100px;
+    gap: 25px;
+}
+@media (max-width: 375px) {
+    body{
+        max-width: 375px;
+    }
+    .first-section{
+    background: url(images/bg-header-mobile.png) no-repeat;
+    width: 375px;
+    height: auto;
+    }
+    .logo-header{
+        top:7rem;
+        left: 35%;
+    }
+    article{
+        top: 17.5rem;
+        left: 0;
+    }
+    h1{
+        font-size:2.25rem;
+    }
+    .title{
+        width: 90%;
+    }
+    .btn-ios{
+        margin-bottom: 20px;
+    }
+    .second-section {
+        width: 90%;
+        top: 52.5rem;
+        left: 1.25rem;
+    }
+    .third-section{
+        top: 72.5rem;
+    }
+    .comp-img{
+        height: 300px;
+        width: 300px;
+        margin: 0 35px;
+    }
+    table tr>* {
+        display: block;
+      }
+      table tr{
+        display: table-cell;
+        vertical-align: top;
+      }
+    ul{
+        text-align:center;
+        margin: 50px 10px;
+    }
+    .forth-section{
+        width: 90%;
+        top: 130rem;
+        left: 1.25rem;
+    }
+    .device-img{
+        height: 300px;
+        width: 300px;
+        top: 150rem;
+        left: 10%;
+    }
+    .fifth-section{
+        width: 90%;
+        top: 172.5rem;
+        left: 1.25rem;
+    }
+    .sixth-section{
+        top: 185rem;
+    }
+    ol{
+        margin: 20px 5px;
+    }
+    .brands{
+        flex-wrap: wrap;
+        flex-direction:column;
+        top: 222.5rem;
+        gap: 75px;
+        margin: 0 100px;
+    }
+    .seventh-section{
+        top: 265rem;
+        text-align: center;
+        width:90% ;
+        margin: 0 20px ;
+    }
+    .footer{
+        width: 100%;
+        height: 500px;
+        top: 300rem;
+        background-color:ghostwhite;
+    }
+    .footer-logo{
+        top: 45px;
+        left: 157px;
+    }
+    .footer-txt{
+        text-align: center;
+        top: 7.5rem;
+        left: 100px;
+        color: hsl(210, 10%, 33%);
+    }
+    table tr {
+        display: block; 
+      }
+      table tr td{
+        display: block;
+        margin-bottom: 20px;
+      }
+      .icons{
+        top:25rem;
+        right: 125px;
+    }
+}
